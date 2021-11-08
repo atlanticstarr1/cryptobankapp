@@ -22,7 +22,7 @@ const calculateApy = (supplyRate) => {
 
   const supplyApy =
     (Math.pow((supplyRate / ethMantissa) * blocksPerDay + 1, daysPerYear - 1) - 1) * 100;
-  return parseFloat(supplyApy).toFixed(2);
+  return parseFloat(supplyApy).toFixed(4);
 };
 const toFixed = (number, digits) => {
   if (isNaN(number)) return 0;

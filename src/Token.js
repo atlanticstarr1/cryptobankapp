@@ -73,8 +73,11 @@ const Token = ({erc20, cAddress}) => {
     console.log("USE EFFECT 2");
     const getTokenDetails = async () => {
       const {decimals, symbol} = erc20Token;
-      let balances, pastEarnings, apy, walletBalance;
-      if (symbol != "ETH") {
+      let balances = 0,
+        pastEarnings = 0,
+        apy = 0,
+        walletBalance = 0;
+      if (symbol !== "ETH") {
         balances = await MyContract.methods.balances(cAddress).call();
         pastEarnings = await MyContract.methods.pastEarnings(cAddress).call();
         apy = await MyContract.methods.supplyRatePerBlock(cAddress).call();

@@ -20,15 +20,15 @@ const TokenSupply = ({erc20, erc20Token, cAddress, account, balance}) => {
     setLoading(true);
     try {
       const amount = toWei(supply, decimals);
-      if (symbol == "ETH") {
+      if (symbol === "ETH") {
         const gas = await MyContract.methods
           .mintEth(cAddress)
           .estimateGas({from: account, value: amount});
         await MyContract.methods.mintEth(cAddress).send({from: account, value: amount, gas});
       } else {
-        await erc20.methods.approve(MyContract.address, amount).send({from: account, gas: 150000});
-        const gas = await MyContract.methods.mint(amount, address, cAddress).estimateGas();
-        await MyContract.methods.mint(amount, erc20.address, cAddress).send({from: account, gas});
+        await erc20.methods.approve(MyContract.address, amount).send({from: account});
+        //const gas = await MyContract.methods.mint(amount, address, cAddress).estimateGas();
+        await MyContract.methods.mint(amount, erc20.address, cAddress).send({from: account});
       }
     } catch (e) {
       console.log("ENCOUNTERED ERROR", e);
@@ -45,7 +45,7 @@ const TokenSupply = ({erc20, erc20Token, cAddress, account, balance}) => {
     setSupply(balance);
   };
 
-  const shouldDisable = balance == 0 || loading;
+  const shouldDisable = balance === 0 || loading;
 
   return (
     <form onSubmit={handleSubmit} className={classes.root}>

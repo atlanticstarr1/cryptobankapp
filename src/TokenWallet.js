@@ -22,15 +22,15 @@ const useStyles = makeStyles(() => ({
 const TokenWallet = ({apy, usdRate, balance, erc20Token}) => {
   const classes = useStyles();
   const {symbol, name} = erc20Token;
-  const usdPrice = toFixed(balance * usdRate, 6);
+  const usdPrice = toFixed(balance * usdRate, 2);
   let iconName = sentenceCase(symbol);
 
   const tokenIcon = () => {
     switch (iconName) {
       case "Wbtc":
-        return <img src={wbtc} width={60} />;
+        return <img src={wbtc} width={60} alt="wbtc" />;
       case "Usdc":
-        return <img src={usdc} width={60} />;
+        return <img src={usdc} width={60} alt="usdc" />;
       default:
         return <Icon name={iconName} size="60" />;
     }

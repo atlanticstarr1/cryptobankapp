@@ -26224,10 +26224,86 @@
       "links": {},
       "address": "0xb8AF6c2552A3863c5399491bF462B426eEfD44f7",
       "transactionHash": "0x96ae985578e4aba621a0a75bed626a148261c9d02c9a7616385c106e69f4a1d9"
+    },
+    "1074": {
+      "events": {
+        "0x4c209b5fc8ad50758f13e2e1088ba56a560dff690a1c6fef26394f4c03821c4f": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "minter",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "mintAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "mintTokens",
+              "type": "uint256"
+            }
+          ],
+          "name": "Mint",
+          "type": "event"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "previousOwner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newOwner",
+              "type": "address"
+            }
+          ],
+          "name": "OwnershipTransferred",
+          "type": "event"
+        },
+        "0xe5b754fb1abb7f01b499791d0b820ae3b6af3424ac1c59768edb53f4ec31a929": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "redeemer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "redeemAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "redeemTokens",
+              "type": "uint256"
+            }
+          ],
+          "name": "Redeem",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x5d94EAb8e854D9414F6fFAd6f0C37A2Bc80603E1",
+      "transactionHash": "0x357601d9b0ac0243a47719c998a8d7d1bbd5637a9b11e33b65f18a6038c36920"
     }
   },
   "schemaVersion": "3.2.0",
-  "updatedAt": "2020-07-29T05:18:22.078Z",
+  "updatedAt": "2021-11-08T04:19:07.143Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
