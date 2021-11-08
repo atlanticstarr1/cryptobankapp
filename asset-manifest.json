@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/cryptobankapp/static/js/main.7a373e39.chunk.js",
+    "main.js.map": "/cryptobankapp/static/js/main.7a373e39.chunk.js.map",
+    "runtime-main.js": "/cryptobankapp/static/js/runtime-main.597db1aa.js",
+    "runtime-main.js.map": "/cryptobankapp/static/js/runtime-main.597db1aa.js.map",
+    "static/js/2.94394cd4.chunk.js": "/cryptobankapp/static/js/2.94394cd4.chunk.js",
+    "static/js/2.94394cd4.chunk.js.map": "/cryptobankapp/static/js/2.94394cd4.chunk.js.map",
+    "index.html": "/cryptobankapp/index.html",
+    "precache-manifest.82641e4a87802e1d2e8d608f37d101af.js": "/cryptobankapp/precache-manifest.82641e4a87802e1d2e8d608f37d101af.js",
+    "service-worker.js": "/cryptobankapp/service-worker.js",
+    "static/js/2.94394cd4.chunk.js.LICENSE.txt": "/cryptobankapp/static/js/2.94394cd4.chunk.js.LICENSE.txt",
+    "static/media/usdc.svg": "/cryptobankapp/static/media/usdc.7cb25c30.svg",
+    "static/media/wbtc.svg": "/cryptobankapp/static/media/wbtc.f9b44883.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.597db1aa.js",
+    "static/js/2.94394cd4.chunk.js",
+    "static/js/main.7a373e39.chunk.js"
+  ]
+}
