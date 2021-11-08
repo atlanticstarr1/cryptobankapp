@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/cryptobankapp/static/js/main.7a373e39.chunk.js",
-    "main.js.map": "/cryptobankapp/static/js/main.7a373e39.chunk.js.map",
-    "runtime-main.js": "/cryptobankapp/static/js/runtime-main.597db1aa.js",
-    "runtime-main.js.map": "/cryptobankapp/static/js/runtime-main.597db1aa.js.map",
-    "static/js/2.94394cd4.chunk.js": "/cryptobankapp/static/js/2.94394cd4.chunk.js",
-    "static/js/2.94394cd4.chunk.js.map": "/cryptobankapp/static/js/2.94394cd4.chunk.js.map",
-    "index.html": "/cryptobankapp/index.html",
-    "precache-manifest.82641e4a87802e1d2e8d608f37d101af.js": "/cryptobankapp/precache-manifest.82641e4a87802e1d2e8d608f37d101af.js",
-    "service-worker.js": "/cryptobankapp/service-worker.js",
-    "static/js/2.94394cd4.chunk.js.LICENSE.txt": "/cryptobankapp/static/js/2.94394cd4.chunk.js.LICENSE.txt",
-    "static/media/usdc.svg": "/cryptobankapp/static/media/usdc.7cb25c30.svg",
-    "static/media/wbtc.svg": "/cryptobankapp/static/media/wbtc.f9b44883.svg"
+    "main.js": "/static/js/main.04fcbcb2.chunk.js",
+    "main.js.map": "/static/js/main.04fcbcb2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.92ee656d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.92ee656d.js.map",
+    "static/js/2.bc42113b.chunk.js": "/static/js/2.bc42113b.chunk.js",
+    "static/js/2.bc42113b.chunk.js.map": "/static/js/2.bc42113b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1868266bdd2cae9bbf8812f14e3ec386.js": "/precache-manifest.1868266bdd2cae9bbf8812f14e3ec386.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.bc42113b.chunk.js.LICENSE.txt": "/static/js/2.bc42113b.chunk.js.LICENSE.txt",
+    "static/media/usdc.svg": "/static/media/usdc.7cb25c30.svg",
+    "static/media/wbtc.svg": "/static/media/wbtc.f9b44883.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.597db1aa.js",
-    "static/js/2.94394cd4.chunk.js",
-    "static/js/main.7a373e39.chunk.js"
+    "static/js/runtime-main.92ee656d.js",
+    "static/js/2.bc42113b.chunk.js",
+    "static/js/main.04fcbcb2.chunk.js"
   ]
 }
